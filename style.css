@@ -2,25 +2,58 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  text-align: center;
-  background-color: #f4f4f9;
+  background: #f4f6fb;
   color: #333;
+  line-height: 1.6;
 }
-
 header {
   background: #0078d7;
   color: white;
   padding: 30px;
+  text-align: center;
 }
-
-section {
-  margin: 20px auto;
-  max-width: 600px;
+.header-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
-
+.avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+.section {
+  padding: 40px;
+}
+.section.alt {
+  background: #eaf0ff;
+}
+h2 {
+  color: #0078d7;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.chip {
+  background: #0078d7;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+}
 footer {
   background: #222;
   color: white;
-  padding: 10px;
-  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+}
+footer a {
+  color: #7aa2ff;
 }

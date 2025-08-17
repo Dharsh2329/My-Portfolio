@@ -1,33 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dharsana Gopalakrishnan — Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="script.js"></script>
 </head>
 <body>
-  <header>
-    <h1>Hi, I'm Your Name 👋</h1>
-    <p>Aspiring Cloud & DevOps Engineer</p>
+  <header class="site-header">
+    <div class="header-grid">
+      <div class="intro">
+        <h1>Hi, I'm <span class="accent">Dharsana Gopalakrishnan</span> 👋</h1>
+        <p class="tagline">Aspiring Cloud Engineer • Passionate about Azure</p>
+      </div>
+      <div class="avatar-wrap">
+        <img src="profile.jpg" alt="Dharsana portrait" class="avatar"/>
+      </div>
+    </div>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am passionate about cloud computing and love working on beginner-friendly projects with GitHub and Azure.</p>
-  </section>
+  <main>
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I am <strong>Dharsana Gopalakrishnan</strong>, a Computer Science Engineering student with a strong focus on
+        <strong>Cloud Computing (Microsoft Azure)</strong>. I enjoy exploring how cloud platforms work and how they can
+        be used to design scalable and efficient systems. Through academics and certifications, I’ve gained knowledge in
+        Azure, AWS Cloud Foundations, Java programming, and algorithm design. I also value
+        <strong>communication</strong>, <strong>leadership</strong>, and <strong>teamwork</strong>, which help me adapt
+        and collaborate effectively.
+      </p>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
+    <section id="skills" class="section alt">
+      <h2>Skills</h2>
+      <ul class="chip-list">
+        <li class="chip">Azure (Fundamentals)</li>
+        <li class="chip">AWS Cloud Foundations</li>
+        <li class="chip">Java</li>
+        <li class="chip">Communication</li>
+        <li class="chip">Leadership</li>
+      </ul>
+    </section>
+
+    <section id="certifications" class="section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>✅ Azure Fundamentals – Simplilearn</li>
+        <li>✅ AWS Academy Graduate – Cloud Foundations (01/2025)</li>
+        <li>✅ NPTEL – Fundamentals of Algorithms: Design & Analysis (71% Elite Grade)</li>
+        <li>✅ Python 101 for Data Science – IBM Cognitive Class (12/2024)</li>
+        <li>✅ Java Certification – CSE IIT, Karpagam Institute of Technology (11/2025)</li>
+        <li>✅ Time Management – Infosys (04/2024)</li>
+      </ul>
+    </section>
+
+    <section id="internship" class="section alt">
+      <h2>Internship</h2>
+      <p><strong>Frontend Development Intern — Swivel Training</strong><br>
+      Completed a 15-day internship focusing on development workflow and coding best practices.</p>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.E. Computer Science Engineering</strong> – Karpagam Institute of Technology (2023–Present) | CGPA: 8.2 (till 4th sem)</li>
+        <li><strong>HSC</strong> – Srinivasa Vidhyalaya Matriculation Hr. Sec. School (2021–2023) | 90.1%</li>
+        <li><strong>SSLC</strong> – Srinivasa Vidhyalaya Matriculation Hr. Sec. School (2020–2021)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <h2>Contact</h2>
     <ul>
-      <li>🌐 Website Hosting with GitHub Pages</li>
-      <li>☁️ Weather Dashboard using APIs</li>
-      <li>🤖 GitHub Actions Bot Automation</li>
+      <li>📧 <a href="mailto:dharsanagopal1@gmail.com">dharsanagopal1@gmail.com</a></li>
+      <li>📱 <a href="tel:+916380645121">+91 63806 45121</a></li>
+      <li>📍 Udumalpet, India</li>
+      <li>💼 <a href="https://www.linkedin.com/in/dharsana-gopalakrishnan-960b58292" target="_blank">LinkedIn</a></li>
+      <li>🌐 <a href="https://github.com/Dharsh2329" target="_blank">GitHub</a></li>
     </ul>
-  </section>
-
-  <footer>
-    <p>Connect with me on <a href="https://github.com/YOURUSERNAME">GitHub</a></p>
+    <p>© <span id="year"></span> Dharsana Gopalakrishnan • Hosted on GitHub Pages</p>
   </footer>
 </body>
 </html>
